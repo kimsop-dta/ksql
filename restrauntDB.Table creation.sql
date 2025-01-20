@@ -30,15 +30,3 @@ create table stores
 (storeid char(5),street varchar(25),city varchar(25),
 state char(2),zip char(2),operator varchar(41));
 
-select*
-from vendors;
-
-insert into vendors
-values('VRGUS','veggie_R_us','Candy','corn','null'),
-      ('DNDRY','Dons Dairy','Maria','Milker','VRGUS'),
-      ('FLVCR','Flavorfuul Cream','Sherman','Sherbert','VRGUS'),
-      ('FRTR','Fruit Eating Friends','Gilbert','Grape','FLVCR'),
-      ('EDDRS','Eds DRESSING','Sam','Sauce','FRTFR'),
-      ('SPWTR','Spring Water Supply','Gus','Hing','EDDRS');
-insert into ingreddients
-values(),(),(),(),(),(),(),(),(),
